@@ -142,6 +142,7 @@ public class ImageAdjuster {
 	 */
 	public void doCrop(){
 		imagePanel.doCrop();
+		adjust(scale, offset, hue, saturation);
 		imagePanel.repaint();
 	}
 	/**
